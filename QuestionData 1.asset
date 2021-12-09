@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3924c6cd3adab4497d508fa8809f0e, type: 3}
+  m_Name: QuestionData 1
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Apakah nama carta alir bagi struktur kawalan di atas?
+    qt: 0
+    questionImg: {fileID: 21300000, guid: 1621584cfeca1e4418f205c16d37da5b, type: 3}
+    options:
+    - Struktur Kawalan BUAT-SELAGI (DO-WHILE)
+    - Struktur Kawalan UNTUK (FOR)
+    - Struktur Kawalan SELAGI (WHILE)
+    - Struktur Kawalan ULANG-SEHINGGA (REPEAT-UNTIL)
+    correctAns: Struktur Kawalan UNTUK (FOR)
+  - questionInfo: Apakah keputusan akhir bagi pseudokod di atas?
+    qt: 0
+    questionImg: {fileID: 21300000, guid: 9b112304b1f29f44a823d5fa9307f117, type: 3}
+    options:
+    - Mendapatkan nilai n
+    - Membezakan nilai terbesar antara n dan 1
+    - Menyenaraikan nilai n secara menaik
+    - Menyalakan lampu isyarat
+    correctAns: Menyenaraikan nilai n secara menaik
+  - questionInfo: Pembangunan atur cara melibatkan lima fasa utama. Apakah langkah
+      kedua selepas menganalisis masalah?
+    qt: 0
+    questionImg: {fileID: 0}
+    options:
+    - 'Reka bentuk atur cara '
+    - Pengujian dan penyahpepijatan
+    - Pengekodan
+    - Dokumentasi
+    correctAns: 'Reka bentuk atur cara '

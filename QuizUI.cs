@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 public class QuizUI : MonoBehaviour
 {
     [SerializeField] private QuizManager quizManager;
-    [SerializeField] private Text questionText, scoreText, timerText, currentScoreText, highestScoreText;
+    [SerializeField] private ScoreManager scoreManager;
+    [SerializeField] private Text questionText, timerText;//, scoreText, timerText, currentScoreText, highestScoreText;
     [SerializeField] private List<Image> lifeImageList;
     [SerializeField] private GameObject gameOverPanel, mainMenuPanel, gameMenuPanel;
     [SerializeField] private Image questionImage;
@@ -17,16 +18,17 @@ public class QuizUI : MonoBehaviour
     private Question question;
     private bool answered;
 
-    public Text ScoreText { get { return scoreText; } }
+    //public Text ScoreText { get { return scoreText; } }
 
     public Text TimerText { get { return timerText; } }
 
-    public Text CurrentScoreText { get { return currentScoreText; } }
+    //public Text CurrentScoreText { get { return currentScoreText; } }
 
-    public Text HighScoreText { get { return highestScoreText; } }
+    //public Text HighScoreText { get { return highestScoreText; } }
 
     public GameObject GameOverPanel { get { return gameOverPanel; } }
 
+   
     private void Awake()
     {
         for(int i = 0; i < options.Count; i++)
@@ -41,6 +43,7 @@ public class QuizUI : MonoBehaviour
             localBtn.onClick.AddListener(() => OnClick(localBtn));
         }
     }
+
     public void SetQuestion(Question question)
     {
         this.question = question;
@@ -50,6 +53,7 @@ public class QuizUI : MonoBehaviour
             case QuestionType.TEXT:
 
                 questionImage.transform.parent.gameObject.SetActive(false);
+                //questionImage.sprite = question.questionImg;
                 break;
 
             case QuestionType.IMAGE:

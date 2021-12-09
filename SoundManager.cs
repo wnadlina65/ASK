@@ -6,7 +6,21 @@ using UnityEngine.UI;
 public class SoundManager : MonoBehaviour
 {
     [SerializeField] Slider volumeSlider;
-   
+    private static SoundManager bgm;
+
+    private void Awake()
+    {
+        if (bgm == null)
+        {
+            bgm = this;
+            DontDestroyOnLoad(bgm); //makes target not be destroyed when loading new scene
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {

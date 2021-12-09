@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3924c6cd3adab4497d508fa8809f0e, type: 3}
+  m_Name: AlgoritmaData
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Apakah nama carta alir bagi struktur kawalan di atas?
+    qt: 1
+    questionImg: {fileID: 21300000, guid: 1621584cfeca1e4418f205c16d37da5b, type: 3}
+    options:
+    - Struktur Kawalan BUAT-SELAGI (DO-WHILE)
+    - Struktur Kawalan UNTUK (FOR)
+    - Struktur Kawalan SELAGI (WHILE)
+    - Struktur Kawalan ULANG-SEHINGGA (REPEAT-UNTIL)
+    correctAns: Struktur Kawalan UNTUK (FOR)
+  - questionInfo: Apakah keputusan akhir bagi pseudokod di atas?
+    qt: 1
+    questionImg: {fileID: 21300000, guid: 9b112304b1f29f44a823d5fa9307f117, type: 3}
+    options:
+    - Mendapatkan nilai n
+    - Membezakan nilai terbesar antara n dan 1
+    - Menyenaraikan nilai n secara menaik
+    - Menyalakan lampu isyarat
+    correctAns: Menyenaraikan nilai n secara menaik
+  - questionInfo: Berikut adalah cara untuk mengesan ralat dalam pseudokod dan carta
+      alir, KECUALI
+    qt: 1
+    questionImg: {fileID: 21300000, guid: 9b112304b1f29f44a823d5fa9307f117, type: 3}
+    options:
+    - Teknik langkah demi langkah (step through)
+    - Teknik Semakan Meja (desk check)
+    - Teknik Semakan Sintaks (syntax check)
+    - Semakan Kualiti (quality check)
+    correctAns: Teknik Semakan Sintaks (syntax check)
+  - questionInfo: Struktur kawalan pilihan ialah satu langkah yang memecahkan algoritma
+      kepada dua atau lebih cabang. Struktur kawalan pilihan terdiri daripada tiga
+      jenis. Antara pilihan jawapan berikut, mana satu yang BUKAN jenis struktur
+      kawalan pilihan?
+    qt: 0
+    questionImg: {fileID: 0}
+    options:
+    - Struktur kawalan pilihan tunggal (single selection)
+    - Dwipilihan (double selection)
+    - Struktur kawalan untuk (for selection)
+    - Pelbagai pilihan (multi selection)
+    correctAns: Struktur kawalan untuk (for selection)
+  - questionInfo: 'Kebiasaannya, langkah-langkah algoritma perlu dilakukan secara
+      berulang kali. Bahagian algoritma yang mempunyai langkah-langkah yang berulang
+      dikenali sebagai :'
+    qt: 0
+    questionImg: {fileID: 0}
+    options:
+    - Bulatan (circle)
+    - Redo (buat semula)
+    - Gelung (loop)
+    - Ulang semak (repeat check)
+    correctAns: Gelung (loop)
+  - questionInfo: Berdasarkan rajah contoh pseudokod di atas, nyatakan jenis struktur
+      kawalan yang digunakan.
+    qt: 1
+    questionImg: {fileID: 21300000, guid: ce968f04a4655254fa473e237bb8bcde, type: 3}
+    options:
+    - Struktur kawalan ulang-sehingga (repeat-until)
+    - Struktur kawalan selagi (while)
+    - Struktur kawalan untuk (for)
+    - Struktur kawalan buat-selagi (do-while)
+    correctAns: Struktur kawalan selagi (while)
+  - questionInfo: Teknik manual untuk menyemak logik setiap langkah serta logik aliran
+      langkah-langkah algoritma. Berdasarkan definisi ini, apakah nama teknik yang
+      dimaksudkan?
+    qt: 0
+    questionImg: {fileID: 0}
+    options:
+    - Teknik semakan meja (desk check)
+    - Teknik langkah demi langkah (step through)
+    - Teknik semakan sintaks (syntax check)
+    - Semakan kualiti (quality check)
+    correctAns: Teknik semakan meja (desk check)
+  - questionInfo: Pada asasnya, setiap algoritma mempunyai langkah-langkah dengan
+      aliran yang berurutan (sequential flow). Antara berikut, apakah langkah seterusnya
+      dalam menghasilkan carta alir dan pseudokod bagi sesuatu algoritma selepas
+      mengenal pasti masalah?
+    qt: 0
+    questionImg: {fileID: 0}
+    options:
+    - Menentukan proses atau tugas yang perlu dilaksanakan
+    - Menentukan output yang diingini
+    - Mereka bentuk algoritma
+    - Menentukan data yang perlu digunakan
+    correctAns: Menentukan data yang perlu digunakan
+  - questionInfo: Berdasarkan rajah di atas, apakah nama bagi simbol tersebut?
+    qt: 1
+    questionImg: {fileID: 21300000, guid: e253c6b184f21a44991b494592da5ca6, type: 3}
+    options:
+    - Simbol proses (process)
+    - Simbol pilihan (choice)
+    - Simbol syarat (condition)
+    - Simbol baca (read)
+    correctAns: Simbol syarat (condition)
+  - questionInfo: Rajah di atas menunjukkan pseudokod untuk menyenaraikan nombor
+      secara menaik selagi syarat dipenuhi. Apakah nama struktur kawalan yang digunakan?
+    qt: 1
+    questionImg: {fileID: 21300000, guid: 9b112304b1f29f44a823d5fa9307f117, type: 3}
+    options:
+    - Struktur kawalan untuk (for)
+    - Struktu kawalan ulang-sehingga (repeat-until
+    - Struktur kawalan selagi (while)
+    - Struktur kawalan buat (do)
+    correctAns: Struktur kawalan selagi (while)

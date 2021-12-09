@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d3924c6cd3adab4497d508fa8809f0e, type: 3}
+  m_Name: KodArahanData
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: Pembangunan atur cara melibatkan lima fasa utama. Apakah langkah
+      kedua selepas menganalisis masalah?
+    qt: 0
+    questionImg: {fileID: 0}
+    options:
+    - 'Reka bentuk atur cara '
+    - Pengujian dan penyahpepijatan
+    - Pengekodan
+    - Dokumentasi
+    correctAns: 'Reka bentuk atur cara '
+  - questionInfo: Apakah jenis ralat yang berlaku apabila sintaks yang salah atau
+      format sintaks yang salah digunakan?
+    qt: 0
+    questionImg: {fileID: 0}
+    options:
+    - Ralat masa
+    - Ralat sintaks
+    - Ralat masa larian
+    - Ralat logik
+    correctAns: Ralat sintaks
+  - questionInfo: 'Berikut adalah langkah-langkah menaip tag HTML dengan menggunakan
+      perisian aplikasi Notepad, KECUALI:'
+    qt: 0
+    questionImg: {fileID: 0}
+    options:
+    - <?php...?>
+    - <html></html>
+    - <head></head>
+    - <title></title>
+    correctAns: <?php...?>
+  - questionInfo: 'Rajah di atas menunjukkan satu blok dalam atur cara Scratch 2.0.
+      Blok repeat akan digunakan dalam struktur secara :'
+    qt: 1
+    questionImg: {fileID: 21300000, guid: 88a3534608bb22a4faea073b6e06de06, type: 3}
+    options:
+    - 'Berulang tanpa henti '
+    - Berulang sehingga syarat dipenuhi
+    - Berulang mengikut bilangan lelaran yang ditetapkan
+    - Tiada ulangan
+    correctAns: Berulang mengikut bilangan lelaran yang ditetapkan
+  - questionInfo: Rajah menunjukkan satu blok dalam struktur ulangan. Blok ini akan
+      berulang mengikut bilangan lelaran yang ditetapkan. Berapakah bilangan langkah
+      selepas struktur ulangan tamat?
+    qt: 1
+    questionImg: {fileID: 21300000, guid: db9d138261266ca46b64953d6b6c04b5, type: 3}
+    options:
+    - 20
+    - 40
+    - 60
+    - 80
+    correctAns: 60
+  - questionInfo: Rajah menunjukkan contoh kod pengaturcaraan menggunakan tag HTML
+      menggunakan aplikas Notepad, bagi membina pelayar web. Apakah tujuan tag <title></title>
+      digunakan?
+    qt: 1
+    questionImg: {fileID: 21300000, guid: 5ce8df18ad3de63419907ed07dc5bc9a, type: 3}
+    options:
+    - Menandakan permulaan dan tamat atur cara HTML
+    - Menandakan bahagian kepala laman sesawang
+    - Menandakan bahagian utama lawan sesawang
+    - Mengarahkan pelayar web untuk memaparkan teks di antaranya pada tab laman sesawang
+    correctAns: Mengarahkan pelayar web untuk memaparkan teks di antaranya pada tab
+      laman sesawang
+  - questionInfo: Berdasarkan rajah di atas adalah contoh hasil teks paragraph heading
+      dalam HTML. Apakah saiz paling kecil dalam paraghraph headings?
+    qt: 1
+    questionImg: {fileID: 21300000, guid: 9d6afd213571e4e49be9cf21522b8b75, type: 3}
+    options:
+    - 4
+    - 5
+    - 6
+    - 7
+    correctAns: 6
+  - questionInfo: Struktur maklumat dan laman sesawang mempunyai empat (4) jenis.
+      Struktur ini menghubungkan setiap laman dengan dua pilihan pengemudian iaitu
+      bergerak ke hadapan atau ke belakang. Apakah nama struktur bagi definisi berikut?
+    qt: 0
+    questionImg: {fileID: 0}
+    options:
+    - Struktur cabang
+    - 'Struktur linear '
+    - Struktur roda
+    - Struktur hierarki
+    correctAns: 'Struktur linear '
+  - questionInfo: Struktur maklumat dan laman sesawang mempunyai empat (4) jenis.
+      Berdasarkan rajah di atas, apakah nama struktur yang digunakan?
+    qt: 1
+    questionImg: {fileID: 21300000, guid: b7c0210542ab0624f831e5d537dd6f3e, type: 3}
+    options:
+    - Struktur cabang
+    - 'Struktur linear '
+    - Struktur roda
+    - Struktur hierarki
+    correctAns: Struktur roda
+  - questionInfo: Rancangkan rupa dan reka bentuk laman adalah salah satu langkah
+      sebelum melakar papan cerita. Apakah elemen yang diperlukan dalam langkah ini?
+    qt: 0
+    questionImg: {fileID: 0}
+    options:
+    - Teks, imej
+    - Teks, imej, skema warna
+    - Skema warna, jenis, saiz, dan warna teks
+    - Skema warna
+    correctAns: Skema warna, jenis, saiz, dan warna teks

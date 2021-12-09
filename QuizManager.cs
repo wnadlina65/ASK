@@ -11,20 +11,21 @@ public class QuizManager : MonoBehaviour
 
     private List<Question> questions;
     private Question selectedQuestion;
-    private int scoreCount = 0;
+    //private int scoreCount = 0;
     private float currentTime;
     private int lifeRemaining = 3;
-    private int currentScoreCount = 0;
-    private int highScoreCount = 0;
+    //private int currentScoreCount = 0;
+    //private int highScoreCount = 0;
 
     private GameStatus gameStatus = GameStatus.Next;
 
     public GameStatus GameStatus {get { return gameStatus; }}
 
     // Start is called before the first frame update
+
     public void StartGame(int index)
     {
-        scoreCount = 0;
+        //scoreCount = 0;
         currentTime = timeLimit;
         lifeRemaining = 3;
         questions = new List<Question>();
@@ -76,13 +77,19 @@ public class QuizManager : MonoBehaviour
         {
             //Yes
             correctAnswer = true;
-            scoreCount += 10;
-            currentScoreCount = scoreCount;
-            highScoreCount += currentScoreCount;
+            ScoreManager.instance.AddScore();
 
-            quizUI.ScoreText.text = "Score: " + scoreCount;
-            quizUI.CurrentScoreText.text = "Current Score: " + currentScoreCount;
-            quizUI.HighScoreText.text = "Highest Score: " + highScoreCount;
+            //scoreCount += 10;
+            //currentScoreCount = scoreCount;
+
+            /*if(currentScoreCount > highScoreCount)
+            {
+                highScoreCount = currentScoreCount;
+            }*/
+            
+            //quizUI.ScoreText.text = "Score: " + scoreCount;
+            //quizUI.CurrentScoreText.text = "Current Score: " + currentScoreCount.ToString();
+            //quizUI.HighScoreText.text = "Highest Score: " + highScoreCount.ToString();
         }
         else
         {
@@ -103,13 +110,9 @@ public class QuizManager : MonoBehaviour
             {
                 Invoke("SelectQuestion", 0.4f);
             }
-            else
-            {
-                gameStatus = GameStatus.Next;
-                quizUI.GameOverPanel.SetActive(true);
-            }
+            
         }
-       
+
         return correctAnswer;
     }
 }
@@ -135,5 +138,5 @@ public enum QuestionType
 public enum GameStatus
 {
     Next,
-    Playing
+    Playing,
 }
